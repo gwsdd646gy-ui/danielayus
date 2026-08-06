@@ -1,0 +1,36 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+# FB:AUTOGEN
+
+module FacebookAds
+  # This class is auto-generated.
+
+  # For any issues or feature requests related to this class, please let us know
+  # on github and we'll fix in our codegen framework. We'll not be able to accept
+  # pull request for this class.
+
+  class AdCampaignLearningStageInfo < AdObject
+
+    field :attribution_windows, { list: 'string' }
+    field :cas_segment, 'string'
+    field :conversions, 'int'
+    field :current_budget_prediction, 'object'
+    field :dynamic_lp_conversions_threshold, 'int'
+    field :dynamic_lp_days_threshold, 'int'
+    field :dynamic_lp_status, 'string'
+    field :is_one_to_one_cbo_budget, 'bool'
+    field :last_sig_edit_ts, 'int'
+    field :recommended_budget_prediction, 'object'
+    field :sigedit_removal, 'bool'
+    field :status, 'string'
+    has_no_id
+    has_no_get
+    has_no_post
+    has_no_delete
+
+  end
+end

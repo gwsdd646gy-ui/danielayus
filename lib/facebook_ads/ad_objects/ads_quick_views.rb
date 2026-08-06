@@ -1,0 +1,37 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+# FB:AUTOGEN
+
+module FacebookAds
+  # This class is auto-generated.
+
+  # For any issues or feature requests related to this class, please let us know
+  # on github and we'll fix in our codegen framework. We'll not be able to accept
+  # pull request for this class.
+
+  class AdsQuickViews < AdObject
+
+    field :attribution_windows, { list: 'string' }
+    field :breakdowns, { list: 'string' }
+    field :column_fields, { list: 'string' }
+    field :description, 'string'
+    field :id, 'string'
+    field :is_attribution_windows_disabled, 'bool'
+    field :is_breakdowns_disabled, 'bool'
+    field :is_columns_and_sort_disabled, 'bool'
+    field :is_filters_disabled, 'bool'
+    field :name, 'string'
+    field :owner, 'Profile'
+    field :permission, 'string'
+    field :quick_view_type, 'string'
+    field :sort, { list: 'object' }
+    field :time_stamp_last_used_by_owner, 'datetime'
+    has_no_post
+    has_no_delete
+
+  end
+end
