@@ -1,7 +1,6 @@
 # -*- ruby -*-
 require "bundler/setup"
 require "bundler/gem_tasks"
-require_relative "tasks/fb"  # FB:STRIP
 
 gem 'minitest'
 
